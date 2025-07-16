@@ -1,0 +1,20 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<p class="demo"></p>
+
+  <script>
+           fetch("")
+           .then(reponse => response.jason())
+           .then(function(countryinfo ){
+                console.log(countryinfo);
+
+           
+          const india = countryinfo(0);
+  </script>
+  </body>
+</html>
+ 

@@ -1,0 +1,22 @@
+<html>
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+<p class="demo"></p>
+
+
+     <script> 
+             fetch("https://restcountries.com/v3.1/name/india")
+             .then(response => response.json())
+             .then(function(countryinfo) {
+                console.log(countryinfo);
+
+             })
+             .catch(error => copnsole.log('error',error))
+
+    </script>
+</body>
+</html>
+ 
